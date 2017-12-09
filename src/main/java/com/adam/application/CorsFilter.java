@@ -1,4 +1,4 @@
-donepackage com.adam.application;
+package com.adam.application;
 
 import java.io.IOException;
 
