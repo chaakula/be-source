@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.adam.common.util.RestURLConstants;
 import com.adam.exception.AppException;
 import com.adam.response.viewmodel.AppResponse;
-import com.adam.service.IGitRepoServiceImpl;
+import com.adam.service.IGitRepoService;
 import com.git.repo.commits.GitRepoResponse;
 
 /**
@@ -22,7 +22,7 @@ import com.git.repo.commits.GitRepoResponse;
 public class GitRepoController {
 
 	@Autowired
-	IGitRepoServiceImpl gitRepoService;
+	IGitRepoService gitRepoService;
 
 	/**
 	 * 

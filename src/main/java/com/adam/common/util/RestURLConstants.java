@@ -1,7 +1,7 @@
 package com.adam.common.util;
 
 /**
- * Rest Endpoins handled in this class
+ * Rest End-points handled in this class
  * 
  * @author Chandra Sekhar Babu A
  *

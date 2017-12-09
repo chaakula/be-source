@@ -8,7 +8,7 @@ import com.git.repo.commits.GitRepoResponse;
  * @author Chandra Sekhar Babu A
  *
  */
-public interface IGitRepoServiceImpl {
+public interface IGitRepoService {
 
 	public GitRepoResponse getLatestCommits() throws AppException;
 }
